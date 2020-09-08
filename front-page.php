@@ -16,14 +16,13 @@
   <div class="card-container">
     <?php for ($x = 0; $x <= 5; $x++) : ?>
       <div class="card-slider">
-        <div class="card text-white bg-dark h-100">
-          <div class="card-header">G-PLAST 306</div>
+        <div class="card">
           <amp-img 
             src="<?= get_template_directory_uri(); ?>/assets/images/maine.jpg" 
-            width="400" height="500" layout="responsive" class="card-img-top" alt="...">
+            width="500" height="500" layout="responsive" class="card-img-top" alt="...">
           </amp-img>
-          <div class="card-footer btn-primary">
-            <small class="text-muted">LIHAT</small>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
           </div>
         </div>
       </div>
@@ -113,5 +112,30 @@
     <div class="card-footer btn-primary">ALAMAT</div>
   </div>
 </div>
+
+<div class="container">
+  <h2 class="sub-head">NEWS & INFO</h1>
+</div>
+<div class="container mb-6">
+  <div class="row">
+    <?php for ($x = 0; $x <= 5; $x++) : ?>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card">
+          <amp-img 
+            src="<?= get_template_directory_uri(); ?>/assets/images/maine.jpg" 
+            width="400" height="250" layout="responsive" class="card-img-top" alt="...">
+          </amp-img>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+</div>
+
 
 <?php get_footer(); ?>
