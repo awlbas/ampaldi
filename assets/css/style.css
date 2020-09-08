@@ -1,0 +1,45 @@
+/*
+Theme Name: AMP Aldi
+Text Domain: ampaldi
+Version: 0.1
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Tema amp
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Aldi
+Author URI: https://localhost/
+Theme URI: https://localhost/temaaldi
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+*/
+
+@media (max-width: 500px) {
+  #mega-menu {
+    display: none;
+  }
+  .sidebar-open-btn {
+    display: block;
+  }
+}
+
+.sidebar-open-btn {
+  font-size: 2em;
+  display: none;
+}
+
+amp-mega-menu {
+  color: #fff;
+  background-color: #ee6e73;
+}
+
+amp-mega-menu .menu-item[open] > span {
+  background-color: white;
+  color: #ee6e73;
+}
+
+amp-mega-menu .menu-item[open] > div {
+  left: 10px;
+  right: 10px;
+  width: auto;
+}
+

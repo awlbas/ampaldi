@@ -1,0 +1,87 @@
+1. page head
+2. side bar
+3. navigation
+4. content area
+5. comment
+6. footer
+
+untuk mengguanak title dinamis ada dua cara:
+- get_title()
+
+
+1. style.css
+- theme info
+- global theme css
+
+2. front-page.php
+- wordpress front page
+
+HEADER
+- wp_head() for insert wp dynamic <head>
+  header.php
+- enqueue style
+  function.php
+- add_theme_support('title_tag') for dynamic title
+  function.php
+- get header dynamic header title the_title();
+  header.php
+- register menu 
+  function.php
+- wp_nav_menu for use wp menu to navbar
+  header.php
+- add_theme_support('custom-logo') for upload logo use wp
+  function.php
+- outputing logo use wp function
+  header.php
+- get_bloginfo('name') for get website name from wp
+  header.php
+
+FOOTER
+- enqueue script
+  function.php
+- wp_footer() for insert wp dynamic footer
+  footer.php
+
+BODY
+- get_header() for insert header.php
+- get_footer() for insert footer.php
+- loop content for page
+  front-page.php
+  page.php
+  single.php
+  archive.php
+  index.php
+- add_theme_support('custom-logo') insert option featured image in post
+  function.php
+post
+- single.php for post page
+- create different type post
+  /template-parts
+- get_template_part('template-parts/content', 'article') for article type
+  single.php
+- insert meta data, content, template and comment
+  content-article.php
+- create comment template
+  comments.php
+archive
+- in static home, archive.php for category, tag, etc
+- and for blog using index.php
+- insert template and excerpt
+  content-archive.php
+- insert pagination
+  index.php
+single page
+- use page.php for looping content
+- insert content template
+  content-page.php
+
+WIDGET
+- register sideber 
+  function.php
+- showing widget 
+  header.php
+  footer.php
+
+- custom walker
+- custom post type
+- custom field
