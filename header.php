@@ -8,7 +8,7 @@
       <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
       <script async src="https://cdn.ampproject.org/v0.js"></script>
       <!-- Import other AMP Extensions here -->
-      <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+      <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
       <style amp-custom>
         <?php 
           // include('amp-preview.css');
@@ -64,7 +64,13 @@
               </li>
 
               <li>
-                <a href="#" title="...">Single link</a>
+                <a href="#" title="...">HOME</a>
+              </li>
+              <li>
+                <a href="#" title="...">KATALOG</a>
+              </li>
+              <li>
+                <a href="#" title="...">COMPANY PROFILE</a>
               </li>
           
               <li class="main-menu-dropdown">

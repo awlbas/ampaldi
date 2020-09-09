@@ -2,7 +2,7 @@
 
 <!-- hero schene -->
 <div class="jumbotron mb-6">
-  <div class="container text-center">
+  <div class="container text-center text-white">
     <h1 class="display-4">MANUFAKTUR & DISTRIBUTOR ADHESIVE</h1>
   </div>
 </div>

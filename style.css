@@ -2793,6 +2793,9 @@ amp-web-push-widget button.unsubscribe {
 .mb-6 {
   margin-bottom: 6rem;
 }
+.pt-6 {
+  padding-top: 6rem;
+}
 .pb-3 {
   padding-bottom: 1rem;
 }
@@ -2900,7 +2903,8 @@ amp-web-push-widget button.unsubscribe {
 
 /* jumbotron */
 .jumbotron {
-  background-color: #e9ecef;
+  /* background-image: url('http://localhost/multisite/aldi/wp-content/uploads/sites/8/2020/09/bg-blue.png'); */
+  background-color: #007ea7;
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
